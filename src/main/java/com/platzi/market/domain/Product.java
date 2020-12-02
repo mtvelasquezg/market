@@ -1,2 +1,4 @@
-package com.platzi.market.domain;public class Product {
+package com.platzi.market.domain;
+
+public class Product {
 }

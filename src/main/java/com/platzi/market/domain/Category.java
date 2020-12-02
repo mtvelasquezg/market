@@ -1,2 +1,4 @@
-package com.platzi.market;public class Category {
+package com.platzi.market.domain;
+
+public class Category {
 }
