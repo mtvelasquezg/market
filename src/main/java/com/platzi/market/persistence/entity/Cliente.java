@@ -13,7 +13,7 @@ public class Cliente {
     private String nombre;
     private String apellidos;
     private Long celular;
-    private String diereccion;
+    private String direccion;
 
     @Column (name = "correo_electronico")
     private String correoElectronico;
@@ -53,12 +53,20 @@ public class Cliente {
         this.celular = celular;
     }
 
-    public String getDiereccion() {
-        return diereccion;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setDiereccion(String diereccion) {
-        this.diereccion = diereccion;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public List<Compra> getCompras() {
+        return compras;
+    }
+
+    public void setCompras(List<Compra> compras) {
+        this.compras = compras;
     }
 
     public String getCorreoElectronico() {
